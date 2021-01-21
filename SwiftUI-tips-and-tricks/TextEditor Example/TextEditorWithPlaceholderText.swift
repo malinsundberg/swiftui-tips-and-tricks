@@ -39,7 +39,7 @@ struct TextEditorWithPlaceholderText: View {
                     Spacer()
                 }
                 Spacer()
-            }.allowsHitTesting(true) // We don't want the the overlay to block touch input of the TextEditor
+            }.allowsHitTesting(false) // We don't want the the overlay to block touch input of the TextEditor
         }
     }
 }
